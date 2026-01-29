@@ -1,0 +1,19 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /account/
+Disallow: /checkout/
+Disallow: /cart/
+
+# Disallow API routes
+Disallow: /api/
+
+# Disallow test pages
+Disallow: /test-*
+Disallow: /navigation-demo
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml
